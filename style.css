@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #d16b66;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+height: 300px;
+top: 173px;
+left: 166px;
+
+
+
+}
+h1 {
+    font-size: 3rem;
+}
+
+h1 span {
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 20px;
+    justify-items: center; /* Центрируем карточки */
+    margin-top: 20px;
+}
+
+.box {
+    background: black;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+   
+}
+
+.subtitle {
+    font-size: 20px;
+    color: white;
+}
+.h3{
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.img{
+justify-content: center;
+width: 300px;
+height: 140px;
+top: 173px;
+left: 566px;
+
+
+}
